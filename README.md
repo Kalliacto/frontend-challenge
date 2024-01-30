@@ -1,4 +1,4 @@
-# Результат задания можно посмотреть тут - https://kalliacto.github.io/frontend-challenge/
+## Результат задания можно [посмотреть тут...](https://kalliacto.github.io/frontend-challenge/)
 
 # Задание для Front-end стажёра
 
