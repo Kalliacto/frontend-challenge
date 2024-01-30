@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/frontend-challenge/static/css/main.a2bb45da.css",
-    "main.js": "/frontend-challenge/static/js/main.435dc285.js",
-    "index.html": "/frontend-challenge/index.html",
-    "static/media/heartFill.svg": "/frontend-challenge/static/media/heartFill.77eff5d1094023b5087bbb8634464f61.svg",
-    "main.a2bb45da.css.map": "/frontend-challenge/static/css/main.a2bb45da.css.map",
-    "main.435dc285.js.map": "/frontend-challenge/static/js/main.435dc285.js.map"
+    "main.css": "/frontend-challenge/allCats/static/css/main.a2bb45da.css",
+    "main.js": "/frontend-challenge/allCats/static/js/main.7a992c2c.js",
+    "index.html": "/frontend-challenge/allCats/index.html",
+    "static/media/heartFill.svg": "/frontend-challenge/allCats/static/media/heartFill.77eff5d1094023b5087bbb8634464f61.svg",
+    "main.a2bb45da.css.map": "/frontend-challenge/allCats/static/css/main.a2bb45da.css.map",
+    "main.7a992c2c.js.map": "/frontend-challenge/allCats/static/js/main.7a992c2c.js.map"
   },
   "entrypoints": [
     "static/css/main.a2bb45da.css",
-    "static/js/main.435dc285.js"
+    "static/js/main.7a992c2c.js"
   ]
 }
