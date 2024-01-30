@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Kalliacto/frontend-challenge/static/css/main.f15f1931.css",
-    "main.js": "/Kalliacto/frontend-challenge/static/js/main.8b308c3c.js",
+    "main.js": "/Kalliacto/frontend-challenge/static/js/main.16965bc9.js",
     "index.html": "/Kalliacto/frontend-challenge/index.html",
     "static/media/favorite.svg": "/Kalliacto/frontend-challenge/static/media/favorite.402cba0d71da64118cfd378de8ded76d.svg",
     "main.f15f1931.css.map": "/Kalliacto/frontend-challenge/static/css/main.f15f1931.css.map",
-    "main.8b308c3c.js.map": "/Kalliacto/frontend-challenge/static/js/main.8b308c3c.js.map"
+    "main.16965bc9.js.map": "/Kalliacto/frontend-challenge/static/js/main.16965bc9.js.map"
   },
   "entrypoints": [
     "static/css/main.f15f1931.css",
-    "static/js/main.8b308c3c.js"
+    "static/js/main.16965bc9.js"
   ]
 }
