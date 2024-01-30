@@ -10,7 +10,7 @@ const Header = () => {
                     <ul className={s.header_list}>
                         <li className={s.header_item}>
                             <NavLink
-                                to={'/Kalliacto/frontend-challenge/'}
+                                to={'/frontend-challenge/'}
                                 className={({ isActive }) => [s.nav_link, isActive ? s.active : ''].join(' ')}
                             >
                                 Все котики
@@ -18,7 +18,7 @@ const Header = () => {
                         </li>
                         <li className={s.header_item}>
                             <NavLink
-                                to={'/Kalliacto/frontend-challenge/favorite'}
+                                to={'/frontend-challenge/favorite'}
                                 className={({ isActive }) => [s.nav_link, isActive ? s.active : ''].join(' ')}
                             >
                                 Любимые котики

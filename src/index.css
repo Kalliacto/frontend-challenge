@@ -37,3 +37,6 @@ img {
 .main {
     padding: 48px 0 48px 0;
 }
+.link:hover {
+    color: #2196f3;
+}

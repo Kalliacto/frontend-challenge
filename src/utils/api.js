@@ -14,15 +14,10 @@ class Api {
     }
 
     getCats() {
-        return (
-            fetch(`${this.baseUrl}images/search?limit=20&api_key=${API_KEY}`)
-                .then((res) => res.json())
-                // .then((data) => data)
-                .catch((err) => console.log(err))
-        );
+        return fetch(`${this.baseUrl}images/search?limit=20&api_key=${API_KEY}`)
+            .then((res) => res.json())
+            .catch((err) => console.log(err));
     }
-
-    getFavoriteCats(id) {}
 }
 
 export const api = new Api(config);

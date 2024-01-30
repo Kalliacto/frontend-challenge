@@ -22,7 +22,7 @@
     fill: #f24e1e;
 }
 
-.card_icon.active {
+.card_icon.favorite {
     fill: #ff3a00;
 }
 .card:hover .card_icon {
