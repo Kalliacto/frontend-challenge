@@ -1,0 +1,38 @@
+.card {
+    width: auto;
+    height: 225px;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(110%);
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.18);
+}
+
+.card_icon {
+    position: absolute;
+    right: 15px;
+    bottom: 18px;
+    visibility: hidden;
+    stroke: #f24e1e;
+    fill: none;
+}
+
+.card_icon:hover {
+    fill: #f24e1e;
+}
+
+.card_icon.active {
+    fill: #ff3a00;
+}
+.card:hover .card_icon {
+    visibility: visible;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,21 @@
+.header {
+    background-color: #2196f3;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+.header_list {
+    display: flex;
+}
+.header_item {
+}
+.nav_link {
+    display: block;
+    padding: 23px;
+}
+.active {
+    background-color: #1e88e5;
+}
