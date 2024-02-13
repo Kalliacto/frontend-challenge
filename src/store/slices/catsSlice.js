@@ -6,6 +6,7 @@ const favoriteCats = localStorage.getItem('favoriteCat') ? JSON.parse(localStora
 const initialState = {
     catsList: [],
     favoriteCats,
+    isLoading: false,
 };
 
 export const fetchGetCats = createAsyncThunk('cats/fetchGetCats', async function () {
@@ -18,7 +19,14 @@ const catsSlice = createSlice({
     initialState: initialState,
     extraReducers: (builder) => {
         builder.addCase(fetchGetCats.fulfilled, (state, { payload }) => {
-            state.catsList = payload;
+            if (!state.catsList.length) {
+                state.catsList = payload;
+            }
+            state.catsList = [...state.catsList, ...payload];
+            state.isLoading = false;
+        });
+        builder.addCase(fetchGetCats.pending, (state, { payload }) => {
+            state.isLoading = true;
         });
     },
     reducers: {
